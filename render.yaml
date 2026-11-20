@@ -1,0 +1,46 @@
+services:
+  - type: web
+    name: jrvs-bot
+    repo: https://github.com/sks2k6/jrvs-bot.git
+    branch: main
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: RENDER_APP_NAME
+        value: "Jrvs-bot"
+      - key: RENDER_API
+        value: "rnd_gAOJHU5PUiOfl83wHdkRad7mumCw"
+      - key: SESSION_ID
+        value: "Jarvis_8v4u_2y2y_8749_0uy0_y3vw_6521_9096_zwvu"
+      - key: DATABASE_URL
+        value: "postgresql://enehe_user:oTbKyxrOW9AwVGAPa2ij5FJjUIoP36Rj@dpg-dc0364m7bikc739938h0-a.oregon-postgres.render.com/enehe"
+      - key: HANDLER
+        value: "!"
+      - key: WORK_TYPE
+        value: "private"
+      - key: ERROR_MSG
+        value: "true"
+      - key: BOT_INFO
+        value: "ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://graph.org/file/f23f574f13baaf790f250.jpg"
+      - key: AUDIO_DATA
+        value: "ᴊᴀʀᴠɪꜱ;ʟᴏᴋɪ-xᴇʀ;https://graph.org/file/76a1d2fe74ba5e5643e16.jpg"
+      - key: MEDIA_DATA
+        value: "ʟɪꜱᴛᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://graph.org/file/46ad7e1ba38c82aee6c0d.jpg"
+      - key: STICKER_PACKNAME
+        value: "ᴃ𝗍／𝗐𝗈𝗋𝗅𝗗𐌌ꙮ⍆ꕶ🌟🐊❳"
+      - key: SUDO
+        value: "917025673121"
+      - key: WARN_COUNT
+        value: "3"
+      - key: ALLWAYS_ONLINE
+        value: "false"
+      - key: READ_MSG
+        value: "false"
+      - key: SAVE_STATUS
+        value: "false"
+      - key: STATUS_VIEW
+        value: "false"
+      - key: REJECT_CALL
+        value: "false"
